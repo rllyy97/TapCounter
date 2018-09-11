@@ -1,8 +1,12 @@
 package com.onthewifi.riley.tapcounter
 
+import android.animation.LayoutTransition
+import android.os.Build
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.constraint.ConstraintLayout
 import android.support.design.widget.FloatingActionButton
+import android.view.ViewGroup
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
